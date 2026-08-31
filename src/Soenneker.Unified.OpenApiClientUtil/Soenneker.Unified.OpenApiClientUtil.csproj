@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <Description>A thread-safe utility for obtaining Unified's OpenApiClient singleton.</Description>
+        <Description>Provides a cached Unified OpenAPI client backed by authenticated transport</Description>
         <Version Condition="'$(BUILD_VERSION)' == ''">4.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Unified.OpenApiClientUtil</AssemblyName>
@@ -41,7 +41,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="4.0.41" />
         <PackageReference Include="Soenneker.Unified.HttpClients" Version="4.0.92" />
         <PackageReference Include="Soenneker.Unified.OpenApiClient" Version="4.0.93" />
         <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.820" />

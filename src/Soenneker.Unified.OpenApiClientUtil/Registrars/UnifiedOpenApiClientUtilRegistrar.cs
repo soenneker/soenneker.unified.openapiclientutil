@@ -6,7 +6,7 @@ using Soenneker.Unified.OpenApiClientUtil.Abstract;
 namespace Soenneker.Unified.OpenApiClientUtil.Registrars;
 
 /// <summary>
-/// Registers the OpenAPI client utility for dependency injection.
+/// Registers authenticated Unified OpenAPI client providers.
 /// </summary>
 public static class UnifiedOpenApiClientUtilRegistrar
 {
