@@ -45,6 +45,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Unified.HttpClients" Version="11.0.183" />
-        <PackageReference Include="Soenneker.Unified.OpenApiClient" Version="11.0.200" />
+        <PackageReference Include="Soenneker.Unified.OpenApiClient" Version="11.0.201" />
     </ItemGroup>
 </Project>
